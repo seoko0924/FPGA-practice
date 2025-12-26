@@ -21,15 +21,15 @@
 
 
 module logic_gate(
-    input a,
-    input b,
-    output y_and,
-    output y_or,
-    output y_not_a,
-    output y_nand,
-    output y_nor,
-    output y_xor,
-    output y_xnor
+    input [3:0] a,
+    input [3:0] b,
+    output [3:0] y_and,
+    output [3:0] y_or,
+    output [3:0] y_not_a,
+    output [3:0] y_nand,
+    output [3:0] y_nor,
+    output [3:0] y_xor,
+    output [3:0] y_xnor
 
     );
     
